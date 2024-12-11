@@ -1,4 +1,4 @@
-# ECE661_Final
+# Evaluation on the Robustness of ViT and CNN Model to Adversarial Attacks
 
 ## Important Files Including:
 
