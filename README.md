@@ -5,6 +5,7 @@
 - `Experiments` Folder: this folder contains the functions for building the 6 white-box attacks, black-box attacks (RayS) and transferability test. Functions are organized in their relative file to ensure more straightforward usage.
 - `Experiments_inNotebook` Folder: this folder contains the same experiments on generating adversarial attacks, testing model's robust accuracy and attacks transferability. These experiments are done in 3 seperate notebooks mainly for each type of model. We started our experiments in these notebooks on Google Colab to utilize better computing resources. However, for your convenience in viewing the functions, please refer to the Experiments folder which contain similar information. 
   - `ResNetPytorch.py`, `DataManagerPytorch.py`, `AttackWrappersWhiteBoxP.py` in this folder are sourced from the paper  "On the Robustness of Vision Transformers to Adversarial Examples" Githubt repository: https://github.com/MetaMain/ViTRobust/tree/main
+- `saved_model` Folder: this folder contains the saved model for ResNet56 which was fine-tuned and pretrained. ViT-B-32 is too large to be stored so it can be viewed and downloaded here: https://drive.google.com/drive/u/0/folders/1jDGQIxF8xngQdZZIV1lrdCzdIoVDAWjC
  
 ## How to use this repository
 1. Clone the repository to your local machine. 
